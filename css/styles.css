@@ -1,0 +1,108 @@
+body {
+	background-color: #2d2727;
+}
+
+
+ 
+ 
+ .center-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+ .vipers-image {
+	max-width: 250px; 
+	height: auto;
+	display: block;
+	margin: 0 auto 20px; /* Centrer l'image horizontalement et ajouter un espace en dessous */
+}
+
+
+
+/* MENU */
+
+/* Style Navbar gauche */
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 15%; /* 1/6 de l'écran */
+	height: 100vh; /* 100% de la hauteur de l'écran */
+	background-color: #333333; /* Couleur de fond de la navbar */
+	padding: 20px; /* Espace intérieur pour les boutons */
+	border: 1px solid #fff; /* Bordure blanche à gauche de la navbar */
+}
+
+/* Style pour les boutons de la navbar */
+.navbar-button {
+	display: block;
+	width: 100%;
+	background-color: #444; /* Couleur de fond des boutons */
+	color: #fff; /* Couleur du texte des boutons */
+	padding: 10px 15px; /* Espace intérieur des boutons */
+	border: none;
+	text-align: left;
+	cursor: pointer;
+	font-size: 16px;
+	margin-bottom: 15px; /* Espace entre les boutons */
+}
+
+/* Style si actif */
+.navbar-button-act {
+	display: block;
+	width: 100%;
+	background-color: #303030; /* Couleur de fond des boutons */
+	color: #fff; /* Couleur du texte des boutons */
+	padding: 10px 15px; /* Espace intérieur des boutons */
+	border: none;
+	text-align: left;
+	cursor: pointer;
+	font-size: 16px;
+	margin-bottom: 15px; /* Espace entre les boutons */
+	border: 2px solid #fff; /* Bordure blanche à gauche de la navbar */
+}
+
+.navbar-button:hover{
+	display: block;
+	width: 100%;
+	background-color: #444; /* Couleur de fond des boutons */
+	color: #fff; /* Couleur du texte des boutons */
+	padding: 10px 15px; /* Espace intérieur des boutons */
+	border: none;
+	text-align: left;
+	cursor: pointer;
+	font-size: 16px;
+	margin-bottom: 15px; /* Espace entre les boutons */
+	border: 2px solid #fff; /* Bordure blanche à gauche de la navbar */
+}*/
+
+/* Style pour l'image du logo Vipers */
+.logo-image {
+	 width: 150px; /* Taille de l'image du logo */
+	 display: block;
+	 margin: 5px auto 10px; /* Centrer l'image horizontalement et ajuster l'espace en haut et en bas */
+}
+
+
+/* Style pour le contenu principal */
+.main-content {
+	margin-left: 20%; /* Laisser de l'espace pour la navbar à gauche */
+	padding: 50px;
+}
+
+
+
+/* Style de base pour le bouton */
+.toggle-button {
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 5px;
+	margin: -20px 10px;
+}
+
